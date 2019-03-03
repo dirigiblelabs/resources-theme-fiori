@@ -1,5 +1,1 @@
-{
-	"description": "IDE Theme - Simone",
-	"extensionPoint": "ide-themes",
-	"module": "theme-simone/extensions/theme.js"
-}
+{"description":"IDE Theme - Fiori","extensionPoint":"ide-themes","module":"theme-fiori/extensions/theme.js"}

@@ -11,7 +11,7 @@
 exports.getTheme = function() {
 	return {
 		'id': 'simone',
-		'module': 'theme-simone',
-		'name': 'Simone'
+		'module': 'theme-fiori',
+		'name': 'Fiori'
 	};
 };
