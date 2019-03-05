@@ -10,7 +10,7 @@
  */
 exports.getTheme = function() {
 	return {
-		'id': 'simone',
+		'id': 'fiori',
 		'module': 'theme-fiori',
 		'name': 'Fiori'
 	};
