@@ -11,6 +11,7 @@ iframe {
 body {
   background-color: #ffffff;
   color: #163550;
+  font-size: 14px;
   
   --modeler-entity-border: #88b5dd;
   --modeler-entity-header-background: #609dd2;
@@ -27,25 +28,26 @@ body {
 	display: flex;
 	flex-wrap: row wrap;
 	width: 100%;
-	height: calc(100% - 23px);
+	height: calc(100% - 42px);
+	top: 42px;
 }
 .sidebar {
 	background: #ffffff;
-	width: 4.5em;
+	width: 3.6em;
 	vertical-align: top;
 	-webkit-flex: none;
 	flex: none;
 	position: relative;
-	top: 24px;
+	top: 42px;
 }
 .plane {
  	-webkit-flex: 1;
  	flex: 1 1 auto;
     position: absolute;
-	width: calc(100% - 4.5em);
-	height: calc(100% - (26px + 2em));
-	left: 4.5em;
-	top: 27px;
+	width: calc(100% - 3.8em);
+	height: calc(100% - (42px + 2em));
+	left: 3.6em;
+	top: 41px;
 }
 .statusbar {
 	width: 100%;
@@ -53,6 +55,7 @@ body {
 	background: #edeff0;
 	color: #fec600;
 	position: relative;
+	top: calc(15px);
 }
 .lm_header .lm_tab {
 	background: #edeff0;
@@ -87,6 +90,8 @@ nav.navbar {
   background-color: #354a5e;
   border: transparent;
   top: 0;
+  height: 42px;
+  padding: 8px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -350,4 +355,8 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 
 .my-list-item {
 	color: #3277b3 !important;
+}
+
+.fa-2x {
+    font-size: 1.4em !important;
 }
