@@ -213,7 +213,7 @@
   border-left: 1px solid #e2e3e3;
 }
 .vakata-context .vakata-contextmenu-shortcut {
-  font-size: 0.8em;
+  font-size: 1.2em;
   color: silver;
   opacity: 0.5;
   display: none;
@@ -358,7 +358,10 @@
 .jstree-default > .jstree-striped {
   min-width: 100%;
   display: inline-block;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAMAAAB/qqA+AAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMNAMM9s3UAAAAXSURBVHjajcEBAQAAAIKg/H/aCQZ70AUBjAATb6YPDgAAAABJRU5ErkJggg==") left top repeat;
+  /*background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAkCAMAAAB/qqA+AAAABlBMVEUAAAAAAAClZ7nPAAAAAnRSTlMNAMM9s3UAAAAXSURBVHjajcEBAQAAAIKg/H/aCQZ70AUBjAATb6YPDgAAAABJRU5ErkJggg==") left top repeat;*/
+  border-bottom: #edeff0;
+  border-bottom-style: solid;
+  border-width: 1px;
 }
 .jstree-default > .jstree-wholerow-ul .jstree-hovered,
 .jstree-default > .jstree-wholerow-ul .jstree-clicked {

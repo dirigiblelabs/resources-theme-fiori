@@ -27,7 +27,7 @@ body {
 	display: flex;
 	flex-wrap: row wrap;
 	width: 100%;
-	height: calc(100% - 24px);
+	height: calc(100% - 23px);
 }
 .sidebar {
 	background: #ffffff;
@@ -87,9 +87,6 @@ nav.navbar {
   background-color: #354a5e;
   border: transparent;
   top: 0;
-  height: 28px;
-  font-family: "72",Arial,Helvetica,sans-serif;
-  font-size: 1.3rem;
 }
 
 .navbar-inverse .navbar-brand {
@@ -149,6 +146,11 @@ nav.navbar .dropdown-menu{
 .lm_items {
   /*border: 1px solid #aaa;*/
 	border: 0;
+}
+
+.lm_content {
+    background: #edeff0;
+    border: 1px solid #edeff0;
 }
 
 .vakata-context, .vakata-context ul {
