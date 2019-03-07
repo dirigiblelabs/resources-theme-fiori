@@ -60,6 +60,7 @@ body {
 .lm_header .lm_tab {
 	background: #edeff0;
 	color: #818487;
+	font-size: 14px;
 }
 .lm_header .lm_active {
     background: #fefefe;
@@ -124,8 +125,8 @@ nav.navbar .dropdown-menu{
 .lm_header,
 .lm_header .lm_tab,
 .lm_header .lm_tab, .lm_title {
-  height: 19px;
-  line-height: 19px;
+  height: 24px;
+  line-height: 24px;
 }
 .lm_header .lm_tab.lm_active{
   box-shadow: none;
@@ -143,6 +144,7 @@ nav.navbar .dropdown-menu{
 }
 .lm_header {
   background-color: #edeff0;
+  height: 31px !important;
 }
 .lm_splitter{
   opacity: inherit;
@@ -162,22 +164,22 @@ nav.navbar .dropdown-menu{
     box-shadow: none;
 }
 .vakata-context li>a {
-	font-size: 11px;
+	font-size: 14px;
     line-height: 2em;
-    height: 2.2rem;
+    height: 2.6rem;
     font-family: arial;
-	padding: 0 2rem;
+	padding: 0 3.4rem;
 }
 .vakata-context li>a>i:empty {
     width: 2rem;
     line-height: 2rem;
 }
 .vakata-context li>a>i {
-	height: 2.2rem;
+	height: 3rem;
 	margin: 0 0 0 -2rem;
 }
 .vakata-context li>a .vakata-contextmenu-sep {
-	height: 2.2rem;
+	height: 3rem;
 	margin: 0 .5em 0 0;
 }
 ul.vakata-context.jstree-contextmenu > li > a {
