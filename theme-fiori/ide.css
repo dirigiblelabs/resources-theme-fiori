@@ -393,3 +393,12 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 .workspace {
 	border-top: 2px solid #edeff0;
 }
+
+.lm_header .lm_controls>li {
+	margin-top: 6px;
+}
+
+.lm_header .lm_tab .lm_close_tab {
+	margin-top: 6px;
+}
+
