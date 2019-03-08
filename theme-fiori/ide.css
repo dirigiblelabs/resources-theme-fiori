@@ -398,6 +398,22 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	border-top: 2px solid #edeff0;
 }
 
+.debugger {
+	border-top: 2px solid #edeff0;
+}
+
+.database {
+	border-top: 2px solid #edeff0;
+}
+
+.repository {
+	border-top: 2px solid #edeff0;
+}
+
+.registry {
+	border-top: 2px solid #edeff0;
+}
+
 .lm_header .lm_controls>li {
 	margin-top: 6px;
 }
@@ -430,3 +446,4 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 .console-row-trace {
 	color: darkgray;
 }
+
