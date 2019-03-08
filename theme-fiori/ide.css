@@ -97,6 +97,8 @@ nav.navbar {
 
 .navbar-inverse .navbar-brand {
     color: aliceblue;
+    padding: 4px;
+    font-weight: 500 !important;
 }
 
 .navbar-inverse .navbar-brand:hover {
