@@ -219,20 +219,24 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
   flex: 1 1 auto;
   max-width: 15%;
   padding: 2px 5px;
-  background: #cddae4;
+  background: #edeff0;
+  border-bottom: 1px solid #dddfe0;
 }
 .value {
   flex: 2 1 auto;
   padding: 2px 5px;
 }
+.striped-container .striped-item {
+  border-bottom: 1px solid #fff0ff;
+}
 .striped-container .striped-item:nth-of-type(odd) {
   background: #efefef;
 }
 .striped-container .striped-item:nth-of-type(odd) .key {
-  background: #bdcad4;
+  background: #edeff0;
 }
 .striped-container .striped-item:nth-of-type(odd) .value {
-  background: #cddae4;
+  background: #ffffff;
 }
 .striped-item:hover .value {
   background: rgba(210, 210, 210, 0.85);
@@ -402,3 +406,27 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	margin-top: 6px;
 }
 
+.console-row {
+	font-family: monospace;
+	background-color: #ffffff;
+}
+
+.console-row-error {
+	color: red;
+}
+
+.console-row-warn {
+	color: darkorange;
+}
+
+.console-row-info {
+	color: red;
+}
+
+.console-row-debug {
+	color: silver;
+}
+
+.console-row-trace {
+	color: darkgray;
+}
