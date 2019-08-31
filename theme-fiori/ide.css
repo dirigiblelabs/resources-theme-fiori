@@ -139,6 +139,10 @@ nav.navbar .dropdown-menu{
 	background-color:  #354a5e;
 }
 
+.launchpad-description {
+	font-size: 1.2em;
+	font-weight: 300;
+}
 
 .lm_header,
 .lm_header .lm_tab,
