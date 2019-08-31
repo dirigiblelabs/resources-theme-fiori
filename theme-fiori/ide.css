@@ -80,7 +80,7 @@ body {
 }
 .lm_header .lm_active {
     background: #fefefe;
-    color: #4577b5;
+    color: #0854a0;
 }
 .list-group-item {
   background: none !important;
@@ -174,7 +174,7 @@ nav.navbar .dropdown-menu{
 }
 
 .lm_content {
-    background: #edeff0;
+    background: #ffffff;
     border: 1px solid #edeff0;
 }
 
