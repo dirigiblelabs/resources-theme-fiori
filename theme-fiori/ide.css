@@ -371,8 +371,8 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 .leading {
 	font-family: Helvetica Neue, Arial;
-    font-size: 48px;
-    font-weight: normal;
+    font-size: 42px;
+    font-weight: 300;
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
