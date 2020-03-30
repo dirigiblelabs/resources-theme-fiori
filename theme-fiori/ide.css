@@ -266,7 +266,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .modal {
-	color: #333;
+	color: #aaa;
 }
 .modal-backdrop.in{
 	opacity:.8;filter:alpha(opacity=50)
