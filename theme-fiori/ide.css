@@ -86,6 +86,7 @@ body {
 	font-size: 14px;
 	font-weight: 300;
 	font-family: Helvetica Neue, Arial;
+	letter-spacing: 0.05em;
 }
 .lm_header .lm_active {
     background: #fefefe;
@@ -275,7 +276,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .modal {
-	color: #eee;
+	color: #aaa;
 	/*letter-spacing: 1px;*/
 	font-size: 1.2em;
 }
@@ -460,9 +461,15 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	font-size: 16px;
 	margin-top: 1px;
 	margin-right: 2px;
+	font-weight: 300;
 }
 
 .workspace {
+	border-top: 2px solid #edeff0;
+	font-weight: 300;
+}
+
+.search {
 	border-top: 2px solid #edeff0;
 	font-weight: 300;
 }
@@ -520,3 +527,12 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	color: darkgray;
 }
 
+.search-box {
+	height: 23px !important;
+	margin-top: 1px !important;
+}
+
+.search-button {
+	height: 23px !important;
+	margin-left: 4px !important;
+}
