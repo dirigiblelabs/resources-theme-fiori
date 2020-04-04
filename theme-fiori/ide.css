@@ -551,3 +551,9 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
     border: none;
     background-color: #fff;
 }
+
+.preview-button {
+	height: 20px !important;
+	font-size: 4;
+	padding-top: 0px;
+}
