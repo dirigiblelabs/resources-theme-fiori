@@ -608,3 +608,27 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 	padding: 0 !important;
 	box-shadow: none;
 }
+
+.tableFixHead {
+	overflow-y: auto;
+	height: 100%;
+}
+.tableFixHead thead th {
+	position: sticky; top: -1px;
+}
+
+table  {
+	border-collapse: collapse;
+	width: 100%;
+}
+th, td {
+	padding: 8px 16px;
+}
+th {
+	background:#f7f7f7;
+}
+
+.tdSingleLine {
+	white-space: nowrap;
+	overflow: auto;
+}
