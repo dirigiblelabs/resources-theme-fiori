@@ -466,7 +466,6 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .workspace {
-	/*border-top: 2px solid #edeff0;*/
 	font-weight: 300;
 	margin-top: 28px;
     position: relative;
@@ -483,18 +482,21 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
 }
 
 .database {
-	border-top: 2px solid #edeff0;
 	font-weight: 300;
+	margin-top: 28px;
+    position: relative;
 }
 
 .repository {
-	border-top: 2px solid #edeff0;
 	font-weight: 300;
+	margin-top: 28px;
+    position: relative;
 }
 
 .registry {
-	border-top: 2px solid #edeff0;
 	font-weight: 300;
+	margin-top: 28px;
+    position: relative;
 }
 
 .lm_header .lm_controls>li {
@@ -631,4 +633,9 @@ th {
 .tdSingleLine {
 	white-space: nowrap;
 	overflow: auto;
+}
+
+.extension-name {
+	color: #477ab7;
+	font-weight: 400;
 }
