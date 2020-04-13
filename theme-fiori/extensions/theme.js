@@ -12,6 +12,6 @@ exports.getTheme = function() {
 	return {
 		'id': 'fiori',
 		'module': 'theme-fiori',
-		'name': 'Fiori'
+		'name': 'Light'
 	};
 };
