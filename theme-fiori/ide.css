@@ -173,17 +173,16 @@ nav.navbar .dropdown-menu {
 }
 .lm_header .lm_tab.lm_active {
   box-shadow: none;
-  padding-bottom: 4px;
   border-top: #105198;
   border-top-width: 2px;
   border-top-style: solid;
+  padding-bottom: 6px;
 }
 
 .lm_header .lm_tab {
   border: 1px solid #edeff0;
-  padding-bottom: 4px;
   box-shadow: none;
-  /*top: 1px;  */
+  top: -1px;
 }
 .lm_header {
   background-color: #edeff0;
