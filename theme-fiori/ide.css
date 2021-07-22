@@ -271,8 +271,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
   flex: 1 1 auto;
   max-width: 15%;
   padding: 2px 5px;
-  background: #edeff0;
-  border-bottom: 1px solid #dddfe0;
+  border-bottom: 1px solid #fff0ff;
 }
 .value {
   flex: 2 1 auto;
@@ -285,7 +284,7 @@ ul.vakata-context.jstree-contextmenu span.vakata-contextmenu-shortcut {
   background: #efefef;
 }
 .striped-container .striped-item:nth-of-type(odd) .key {
-  background: #edeff0;
+  background: #ffffff;
 }
 .striped-container .striped-item:nth-of-type(odd) .value {
   background: #ffffff;
