@@ -68,11 +68,12 @@ body {
 .statusbar {
   width: 100%;
   height: 26px;
-  background: #edeff0;
-  color: rgb(72, 122, 183);
+  background: #344a5e;
+  color: rgb(225 235 241);
   position: fixed;
   bottom: 0;
-  padding: 0 56px 0 26px;
+  padding: 4px 26px 0 26px;
+  font-weight: 300
 }
 .statusbar-message {
   width: 40%;
@@ -82,7 +83,7 @@ body {
   text-overflow: ellipsis;
 }
 .statusbar-error {
-  color: red;
+  color: rgb(247, 199, 199);
   width: 45%;
   flex: 1;
   white-space: nowrap;
