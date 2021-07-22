@@ -83,7 +83,7 @@ body {
   text-overflow: ellipsis;
 }
 .statusbar-error {
-  color: #ffcf9d;
+  color: #ffcebb;
   width: 45%;
   flex: 1;
   white-space: nowrap;
