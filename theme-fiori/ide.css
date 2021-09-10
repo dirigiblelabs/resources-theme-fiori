@@ -706,6 +706,10 @@ a.ui-button:active,
   background-size: 16px 16px;
   background-position: 0 0, 8px 0, 8px -8px, 0px 8px;
 }
+.contain-image {
+  object-fit: contain;
+  margin: auto;
+}
 .flex-center {
   display: flex;
   align-items: center;
