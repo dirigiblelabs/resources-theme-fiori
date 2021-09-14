@@ -23,6 +23,12 @@
     display: block;
     cursor: pointer;
 }
+.dropdown-btn {
+    width: 100%;
+    text-align: left;
+    padding: 8px 12px 8px 12px;
+    font-size: 14px;
+}
 .dropdown-container .dropdown-item:hover {
     background-color: #f2f2f2;
 }
